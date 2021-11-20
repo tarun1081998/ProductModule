@@ -15,11 +15,9 @@ namespace ProductModule.Controllers
     public class ProductController : ControllerBase
     {
         public IHandler _handler;
-        // public ProductContext _context;
         public ProductController(IHandler handler)
         {
             _handler = handler;
-            // _context = context;
         }
 
         [HttpGet]
