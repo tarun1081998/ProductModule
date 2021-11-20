@@ -20,6 +20,6 @@ This is a basic project which have functionalities like
 -- $ dotnet run  
 Above command will start the api project
 5. Navigate to "NunitTest" folder
-6. run the following command
+6. run the following command  
 -- $ dotnet test
 
